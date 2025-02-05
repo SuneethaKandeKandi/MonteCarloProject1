@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AddingProductPage {
+	
 	@FindBy( id="AddToCart")
 	private WebElement addtoCart;
 
@@ -18,7 +19,7 @@ public class AddingProductPage {
 	@FindBy(xpath = "(//label[@class='block-swatch__item'])[4]")
 	private WebElement size;
 	
-	@FindBy( xpath = "//button[@class='quantity-selector__button'])[2]")
+	@FindBy( xpath = "(//button[@class='quantity-selector__button'])[2]")
 	private WebElement increaseQuantity;
 	
 	@FindBy(name="checkout")
@@ -42,6 +43,12 @@ public class AddingProductPage {
 	@FindBy (xpath="//button[@title='Close']")
 	private WebElement closeButton;
 	
+	@FindBy (xpath="//label[contains(text(),'34/S')]")
+	private WebElement sizeInProductPage;
+		
+	public void sizeInProductPageClick() {
+		sizeInProductPage.click();
+	}
 	public void closeButtonClick() {
 		closeButton.click();
 	}
@@ -59,6 +66,9 @@ public class AddingProductPage {
 	}
 	public void addtoCartClick() {
 		addtoCart.click();
+	}
+	public WebElement getAddtoCart() {
+		return addtoCart;
 	}
 	public void increaseQuantityClick() {
 		increaseQuantity.click();

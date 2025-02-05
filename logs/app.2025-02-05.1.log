@@ -1,0 +1,62 @@
+TestCase Started Running
+TestCase Started Running
+class  SuggestionSelection started
+class  SuggestionSelection started
+Successfully logged into MonteCarlo
+Successfully logged into MonteCarlo
+product added to wishlist
+product added to cart
+product added to wishlist
+product added to cart
+TestCase Started Running
+TestCase Started Running
+Adding and RemovingProduct From Wishlist started
+Adding and RemovingProduct From Wishlist started
+Product selected
+Product selected
+Product is successfully added to cart and removed from wishlist
+Class Adding and RemovingProduct From Wishlist ran Successfully
+TestCase Started Running
+Product is successfully added to cart and removed from wishlist
+Class Adding and RemovingProduct From Wishlist ran Successfully
+TestCase Started Running
+Class manufacturerPincodeChecking Started
+Class manufacturerPincodeChecking Started
+Successfully logged into MonteCarlo
+Account Page is verified
+Successfully logged into MonteCarlo
+Account Page is verified
+The ManufacturerPincodeChecking class ran successfully.
+TestCase Started Running
+Adding address started
+Logged into application
+Opened Account page
+The ManufacturerPincodeChecking class ran successfully.
+TestCase Started Running
+Adding address started
+Address Added to page
+Class Adding address ran successfully
+TestCase Started Running
+Logged into application
+Opened Account page
+Signed into application Successfully
+Account
+Address Added to page
+Class Adding address ran successfully
+TestCase Started Running
+Address deleted Successfully
+class deletingAddress ran Successfully
+TestCase Started Running
+class EnterDetailsOnProductAdding started
+Signed into application Successfully
+Account
+no such product is clicked
+TestCase Started Running
+Address deleted Successfully
+class deletingAddress ran Successfully
+TestCase Started Running
+class filterOldToNew started
+class EnterDetailsOnProductAdding started
+no such product is clicked
+Filter Old To New Selected
+Eamil entered once the popup is shown

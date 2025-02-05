@@ -60,7 +60,15 @@ public class AccountPage {
 	@FindBy(xpath = "//button[@data-action=\"close\"]")
 	private WebElement closeCartDrawerButton;
 	
+	@FindBy(xpath = "//button[@form='predictive-search-form']")
+	private WebElement viewAllResults;
 	
+	
+	public void viewAllResultsClick() {
+		viewAllResults.click();
+	}
+
+
 	public void addNoteBoxSendKeys(String note) {
 		addNoteBox.sendKeys(note);
 	}

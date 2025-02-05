@@ -7,13 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class WishlistPage {
 	
-	@FindBy (xpath = "(//p[contains(text(),'Printed 100% Polyster')])")
+	@FindBy (xpath = "//p[contains(@data-tippy-content,'Printed 100% Polyster Single')]")
 	private WebElement userProduct;
 	
 	@FindBy (xpath = "//a[@data-tippy-content='Add to Wishlist']")
 	private WebElement addToWishlistIcon;
 
-	@FindBy (xpath = "//button[text() = 'Add to Cart']")
+	@FindBy (xpath = "//button[@data-flits-add-action-from='wishlist']")
 	private WebElement addToCartInWishlist;
 	
 	@FindBy (xpath = "//a[@href='/account/login'])[5]")

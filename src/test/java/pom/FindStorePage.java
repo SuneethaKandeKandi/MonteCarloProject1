@@ -10,18 +10,24 @@ public class FindStorePage {
 	private WebElement searchTextBox;
 	
 	@FindBy (xpath = "//a[contains(@class,'directions-btn')]")
-	private WebElement getDirecion;
+	private WebElement getDirection;
 		
 	public FindStorePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
     }
 	
 	public void getDirecionClick() {
-		getDirecion.click();
+		getDirection.click();
 	}
 
 	public void searchTextBox(String pin) {
 		searchTextBox.sendKeys(pin);
 	}
+
+	public WebElement getGetDirecion() {
+		return getDirection;
+	}
+
+	
 	
 }

@@ -63,8 +63,28 @@ public class ProductFilterSelectorPage {
 	@FindBy (xpath = "//a[contains(@class,'product-item')]")
 	private WebElement productOldToNew;
 	
-	@FindBy (xpath = "//a[contains(@class,'product-item')])[14]")
+	@FindBy (xpath = "(//a[contains(text(),'Printed 100% Polyster Single')])[8]")
     private WebElement homeFurninshingProduct;
+	
+	@FindBy (xpath = "(//a[contains(text(),'Women Maroon')])[1]")
+    private WebElement womenProduct;
+	@FindBy(xpath="(//a[contains(text(),' Cotton')])[10]")
+	private WebElement productTC10;
+	
+	public void productTC10Click() {
+		productTC10.click();
+	}
+
+	public void highToLowClick() {
+		highToLow.click();
+	}
+
+	@FindBy(xpath="//span[text()='Price, high to low']")
+	private WebElement highToLow;
+	
+	public void womenProductClick() {
+		womenProduct.click();
+	}
 
 	public ProductFilterSelectorPage(WebDriver driver) {	
 		PageFactory.initElements(driver, this);
